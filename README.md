@@ -1,4 +1,4 @@
-# HDI_Template
+# HDI_4DWritePro_StandardActions
 
 A 4D v17 **HDI** (How Do I) binary database converted to a 4D project using 4D 21. The codebase was then updated and cleaned up with the help of **GitHub Copilot**.
 

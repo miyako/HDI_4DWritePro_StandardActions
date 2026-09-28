@@ -6,7 +6,7 @@ Case of
 		// create menu for push button (See example 4)
 		menu:=Create menu:C408
 		//insert menu item
-		APPEND MENU ITEM:C411(menu; "Toggle horizontal ruler")
+		APPEND MENU ITEM:C411(menu; Localized string("HDI2_BtnToggleRuler"))
 		SET MENU ITEM PROPERTY:C973(menu; -1; Associated standard action:K56:1; "visibleHorizontalRuler")
 		
 		
@@ -24,10 +24,10 @@ Case of
 		
 		APPEND MENU ITEM:C411(menuContext; "-")
 		
-		APPEND MENU ITEM:C411(menuContext; "Style")
+		APPEND MENU ITEM:C411(menuContext; Localized string("MenuItemStyle"))
 		SET MENU ITEM PROPERTY:C973(menuContext; -1; Associated standard action:K56:1; "fontStyle")
 		
-		APPEND MENU ITEM:C411(menuContext; "Toggle horizontal ruler")
+		APPEND MENU ITEM:C411(menuContext; Localized string("HDI2_BtnToggleRuler"))
 		SET MENU ITEM PROPERTY:C973(menuContext; -1; Associated standard action:K56:1; "visibleHorizontalRuler")
 		
 		
@@ -36,7 +36,7 @@ Case of
 		OBJECT SET VISIBLE:C603(*; "WParea"; (FORM Get current page:C276>1))
 		GOTO OBJECT:C206(*; "WParea")
 		
-		Var:=TextTabControl{TabControl}
+		Var:=TextTabControl{FORM Get current page:C276}
 		
 	: (Form event code:C388=On Unload:K2:2)
 		// release menu

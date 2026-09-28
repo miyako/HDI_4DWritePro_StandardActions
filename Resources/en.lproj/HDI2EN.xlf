@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/Forms/HDI2/form.4DForm" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="HDI2_TabPage1" resname="HDI2_TabPage1">
+        <source>Page 1</source>
+        <target>Page 1</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TabPage2" resname="HDI2_TabPage2">
+        <source>Page 2</source>
+        <target>Page 2</target>
+      </trans-unit>
+      <trans-unit id="HDI2_TabPage3" resname="HDI2_TabPage3">
+        <source>Page 3</source>
+        <target>Page 3</target>
+      </trans-unit>
+      <trans-unit id="HDI2_BtnToggleRuler" resname="HDI2_BtnToggleRuler">
+        <source>Toggle horizontal ruler</source>
+        <target>Toggle horizontal ruler</target>
+      </trans-unit>
+      <trans-unit id="HDI2_BtnMenu" resname="HDI2_BtnMenu">
+        <source>Menu</source>
+        <target>Menu</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -39,6 +39,7 @@
 					"dataSource": "Var",
 					"focusable": false,
 					"fill": "transparent",
+					"stroke": "automatic",
 					"borderStyle": "none",
 					"enterable": false,
 					"styledText": true,
@@ -60,9 +61,9 @@
 					"dataSource": "TabControl",
 					"dataSourceTypeHint": "arrayText",
 					"labels": [
-						"Page 1",
-						"Page 2",
-						"Page 3"
+						":xliff:HDI2_TabPage1",
+						":xliff:HDI2_TabPage2",
+						":xliff:HDI2_TabPage3"
 					],
 					"action": "GotoPage",
 					"events": [
@@ -119,10 +120,10 @@
 					"top": 173,
 					"left": 514,
 					"width": 188,
-					"height": 22,
 					"action": "visibleHorizontalRuler",
-					"text": "Toggle horizontal ruler",
+					"text": ":xliff:HDI2_BtnToggleRuler",
 					"focusable": false,
+					"class": "default",
 					"events": [
 						"onClick"
 					]
@@ -154,9 +155,9 @@
 					"top": 173,
 					"left": 514,
 					"width": 188,
-					"height": 22,
-					"text": "Toggle horizontal ruler",
+					"text": ":xliff:HDI2_BtnToggleRuler",
 					"focusable": false,
+					"class": "default",
 					"method": "ObjectMethods/Button1.4dm",
 					"events": [
 						"onClick"
@@ -184,11 +185,11 @@
 					"top": 173,
 					"left": 568,
 					"width": 74,
-					"height": 19,
 					"focusable": false,
-					"text": "Menu",
+					"text": ":xliff:HDI2_BtnMenu",
 					"popupPlacement": "linked",
 					"style": "roundedBevel",
+					"class": "default",
 					"method": "ObjectMethods/3D Button.4dm",
 					"events": [
 						"onClick"

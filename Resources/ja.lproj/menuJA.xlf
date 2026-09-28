@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/menus.json" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="MenuItemDemo" resname="MenuItemDemo">
+        <source>Demo...</source>
+        <target>デモ...</target>
+      </trans-unit>
+      <trans-unit id="MenuWriteProDemo" resname="MenuWriteProDemo">
+        <source>4D Write Pro</source>
+        <target>4D Write Pro</target>
+      </trans-unit>
+      <trans-unit id="MenuItemShowHorizontalRuler" resname="MenuItemShowHorizontalRuler">
+        <source>Show horizontal ruler</source>
+        <target>水平ルーラーを表示</target>
+      </trans-unit>
+      <trans-unit id="MenuItemStyle" resname="MenuItemStyle">
+        <source>Style</source>
+        <target>スタイル</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

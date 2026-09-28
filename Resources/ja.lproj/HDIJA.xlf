@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/Forms/HDI/form.4DForm" source-language="en" target-language="ja">
+    <body>
+      <trans-unit id="HDI_Title" resname="HDI_Title">
+        <source>How Do I...</source>
+        <target>使い方...</target>
+      </trans-unit>
+      <trans-unit id="HDI_Info" resname="HDI_Info">
+        <source>… execute a standard action in 4D Write Pro?</source>
+        <target>… 4D Write Pro で標準アクションを実行するには?</target>
+      </trans-unit>
+      <trans-unit id="HDI_BtnDemo" resname="HDI_BtnDemo">
+        <source>Demo</source>
+        <target>デモ</target>
+      </trans-unit>
+      <trans-unit id="BtnClose" resname="BtnClose">
+        <source>Close</source>
+        <target>閉じる</target>
+      </trans-unit>
+      <trans-unit id="HDI_TxtSorryDesignMode" resname="HDI_TxtSorryDesignMode">
+        <source>Do not attempt to open this HDI in Design mode using this version; if you do so, forms and/or methods could be altered because of missing functionality.</source>
+        <target>このバージョンでこの HDI をデザインモードで開かないでください。開いてしまうと、機能が不足しているためフォームやメソッドが変更されてしまう可能性があります。</target>
+      </trans-unit>
+      <trans-unit id="HDI_TxtInfoHowDoI" resname="HDI_TxtInfoHowDoI">
+        <source>How Do I...</source>
+        <target>使い方...</target>
+      </trans-unit>
+      <trans-unit id="HDI_TxtInfoStandardAction" resname="HDI_TxtInfoStandardAction">
+        <source>… execute a standard action in 4D Write Pro?</source>
+        <target>… 4D Write Pro で標準アクションを実行するには?</target>
+      </trans-unit>
+      <trans-unit id="HDI_TxtSorryVersion" resname="HDI_TxtSorryVersion">
+        <source>Sorry, this “How do I” (HDI) example must be used witha newer version of 4D(v16 and above).</source>
+        <target>申し訳ございません。この「使い方」(HDI)サンプルは4Dの新しいバージョン(v16以降)が必要です。</target>
+      </trans-unit>
+      <trans-unit id="HDI_TxtVersion" resname="HDI_TxtVersion">
+        <source>(4D v16 R3 and above…)</source>
+        <target>(4D v16 R3 以降…)</target>
+      </trans-unit>
+      <trans-unit id="HDI_TxtSorryPlugin" resname="HDI_TxtSorryPlugin">
+        <source>The plugin xxx is mandatory</source>
+        <target>プラグイン xxx は必須です</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

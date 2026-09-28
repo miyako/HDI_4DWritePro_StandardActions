@@ -25,7 +25,7 @@
 			"title": ":xliff:CommonMenuFile",
 			"items": [
 				{
-					"title": "Demo...",
+					"title": ":xliff:MenuItemDemo",
 					"method": "00_Start"
 				},
 				{
@@ -34,7 +34,7 @@
 				},
 				{
 					"title": ":xliff:CommonMenuItemQuit",
-					"method": "m_Quit",
+					"action": "quit",
 					"shortcutAccel": true,
 					"shortcutKey": "Q"
 				}
@@ -104,14 +104,14 @@
 		},
 		{
 			"link": 32000,
-			"title": "4D Write Pro",
+			"title": ":xliff:MenuWriteProDemo",
 			"items": [
 				{
-					"title": "Show horizontal ruler",
+					"title": ":xliff:MenuItemShowHorizontalRuler",
 					"action": "visibleHorizontalRuler"
 				},
 				{
-					"title": "Style",
+					"title": ":xliff:MenuItemStyle",
 					"action": "fontStyle"
 				}
 			]

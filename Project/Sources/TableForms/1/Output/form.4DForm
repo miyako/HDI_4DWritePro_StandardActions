@@ -67,9 +67,10 @@
 					"width": 56,
 					"height": 16,
 					"sizingX": "grow",
+					"stroke": "automatic",
 					"fontFamily": "System Font",
 					"fontSize": 12,
-					"text": "ID : "
+					"text": ":xliff:Person_LabelID"
 				},
 				"S2_Text": {
 					"type": "text",
@@ -78,9 +79,10 @@
 					"width": 400,
 					"height": 16,
 					"sizingX": "grow",
+					"stroke": "automatic",
 					"fontFamily": "System Font",
 					"fontSize": 12,
-					"text": "OB_Field : "
+					"text": ":xliff:Person_LabelOBField"
 				},
 				"Rectangle4": {
 					"type": "rectangle",
@@ -104,6 +106,7 @@
 					"fontSize": 12,
 					"focusable": false,
 					"fill": "transparent",
+					"stroke": "automatic",
 					"borderStyle": "none",
 					"enterable": false,
 					"contextMenu": "none",
@@ -132,7 +135,8 @@
 					"dataSourceTypeHint": "object",
 					"fontFamily": "System Font",
 					"fontSize": 12,
-					"fill": "#FFFFFF",
+					"fill": "automatic",
+					"stroke": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -154,7 +158,7 @@
 					"top": 2,
 					"left": 77,
 					"height": 46,
-					"stroke": "#A8A8A8"
+					"class": "hdi-divider"
 				},
 				"Splitter2": {
 					"type": "splitter",

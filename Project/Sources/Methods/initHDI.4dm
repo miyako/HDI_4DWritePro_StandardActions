@@ -1,4 +1,5 @@
 //%attributes = {"invisible":true}
+var $json : Collection
 ARRAY TEXT:C222(TabControl; 0)
 ARRAY TEXT:C222(TextTabControl; 0)
 
@@ -28,5 +29,6 @@ Var5:=TextTabControl{5}
 Var6:=TextTabControl{6}
 Var7:=TextTabControl{7}
 
-TabControl:=1
-Var:=TextTabControl{TabControl}
+  // TabControl is the array bound to the Tab Control's dataSource (tab captions);
+  // it must never be reassigned as a scalar. The initially selected page is page 1.
+Var:=TextTabControl{1}

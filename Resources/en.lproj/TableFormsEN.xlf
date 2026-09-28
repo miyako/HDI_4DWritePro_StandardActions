@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/TableForms" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="Person_Title" resname="Person_Title">
+        <source>Person</source>
+        <target>Person</target>
+      </trans-unit>
+      <trans-unit id="Person_LabelID" resname="Person_LabelID">
+        <source>ID : </source>
+        <target>ID : </target>
+      </trans-unit>
+      <trans-unit id="Person_LabelOBField" resname="Person_LabelOBField">
+        <source>OB_Field : </source>
+        <target>OB_Field : </target>
+      </trans-unit>
+      <trans-unit id="Samples_Title" resname="Samples_Title">
+        <source>SAMPLES</source>
+        <target>SAMPLES</target>
+      </trans-unit>
+      <trans-unit id="Samples_LabelID" resname="Samples_LabelID">
+        <source>ID : </source>
+        <target>ID : </target>
+      </trans-unit>
+      <trans-unit id="Samples_LabelTitle" resname="Samples_LabelTitle">
+        <source>Title : </source>
+        <target>Title : </target>
+      </trans-unit>
+      <trans-unit id="Samples_LabelText" resname="Samples_LabelText">
+        <source>Text : </source>
+        <target>Text : </target>
+      </trans-unit>
+      <trans-unit id="Samples_LabelSampleSort" resname="Samples_LabelSampleSort">
+        <source>SampleSort : </source>
+        <target>SampleSort : </target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

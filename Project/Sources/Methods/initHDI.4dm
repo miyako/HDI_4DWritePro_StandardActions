@@ -1,0 +1,34 @@
+//%attributes = {"invisible":true}
+var $json : Collection
+ARRAY TEXT:C222(TabControl; 0)
+ARRAY TEXT:C222(TextTabControl; 0)
+
+If (Get database localization:C1009(Current localization:K5:22)="ja")
+	$json:=JSON Parse:C1218(Folder:C1567(fk resources folder:K87:11).file("SAMPLES-ja.json").getText(); Is collection:K8:32)
+Else 
+	$json:=JSON Parse:C1218(Folder:C1567(fk resources folder:K87:11).file("SAMPLES-en.json").getText(); Is collection:K8:32)
+End if 
+
+$json:=$json.orderBy("SampleSort asc")
+
+//ALL RECORDS([SAMPLES])
+//ORDER BY([SAMPLES]; [SAMPLES]SampleSort; >)
+
+COLLECTION TO ARRAY:C1562($json; TabControl; "Title"; TextTabControl; "Text")
+
+//SELECTION TO ARRAY([SAMPLES]Title; TabControl)
+//SELECTION TO ARRAY([SAMPLES]Text; TextTabControl)
+//UNLOAD RECORD([SAMPLES])
+
+
+Var1:=TextTabControl{1}
+Var2:=TextTabControl{2}
+Var3:=TextTabControl{3}
+Var4:=TextTabControl{4}
+Var5:=TextTabControl{5}
+Var6:=TextTabControl{6}
+Var7:=TextTabControl{7}
+
+  // TabControl is the array bound to the Tab Control's dataSource (tab captions);
+  // it must never be reassigned as a scalar. The initially selected page is page 1.
+Var:=TextTabControl{1}

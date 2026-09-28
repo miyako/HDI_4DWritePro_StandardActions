@@ -1,0 +1,24 @@
+/* Cross-platform dark mode support.
+   Automatic color values ("automatic"/"automaticAlternate") are set directly
+   on form objects in each form.4DForm; the media queries below only cover
+   objects that need a specific (non-automatic) color per mode. */
+
+@media (prefers-color-scheme: light) {
+	.hdi-alert {
+		stroke: #FF4D00;
+	}
+
+	.hdi-divider {
+		stroke: #A8A8A8;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.hdi-alert {
+		stroke: #CC3D00;
+	}
+
+	.hdi-divider {
+		stroke: #6E6E6E;
+	}
+}

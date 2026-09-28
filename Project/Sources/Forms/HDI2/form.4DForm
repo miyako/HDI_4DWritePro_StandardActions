@@ -1,0 +1,236 @@
+{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"width": 860,
+	"height": 520,
+	"menuBar": "Menu Bar #1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onMenuSelect",
+		"onDataChange",
+		"onUnload",
+		"onAfterEdit",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Variable7": {
+					"type": "input",
+					"top": 70,
+					"left": 40,
+					"width": 760,
+					"height": 401,
+					"sizingX": "grow",
+					"dataSource": "Var",
+					"focusable": false,
+					"fill": "transparent",
+					"stroke": "automatic",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Tab Control": {
+					"type": "tab",
+					"top": 20,
+					"left": 20,
+					"width": 820,
+					"height": 480,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "TabControl",
+					"dataSourceTypeHint": "arrayText",
+					"labels": [
+						":xliff:HDI2_TabPage1",
+						":xliff:HDI2_TabPage2",
+						":xliff:HDI2_TabPage3"
+					],
+					"action": "GotoPage",
+					"events": [
+						"onClick"
+					]
+				},
+				"WParea": {
+					"type": "write",
+					"top": 173,
+					"left": 40,
+					"width": 311,
+					"height": 309,
+					"visibility": "hidden",
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "WParea",
+					"hideFocusRing": true,
+					"contextMenu": "none",
+					"scrollbarVertical": "automatic",
+					"scrollbarHorizontal": "automatic",
+					"showSelection": true,
+					"showHorizontalRuler": false,
+					"showVerticalRuler": false,
+					"layoutMode": "embedded",
+					"method": "ObjectMethods/WParea.4dm",
+					"events": [
+						"onLoad",
+						"onClick",
+						"onLosingFocus",
+						"onGettingFocus",
+						"onSelectionChange",
+						"onAfterEdit"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Picture44": {
+					"type": "picture",
+					"top": 314,
+					"left": 355,
+					"width": 150,
+					"height": 150,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture44.tif"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Button": {
+					"type": "button",
+					"top": 173,
+					"left": 514,
+					"width": 188,
+					"action": "visibleHorizontalRuler",
+					"text": ":xliff:HDI2_BtnToggleRuler",
+					"focusable": false,
+					"class": "default",
+					"events": [
+						"onClick"
+					]
+				},
+				"Picture30": {
+					"type": "picture",
+					"top": 209,
+					"left": 392,
+					"width": 403,
+					"height": 259,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/PropertyList.png"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Picture27": {
+					"type": "picture",
+					"top": 208,
+					"left": 343,
+					"width": 496,
+					"height": 293,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Images/ObjectMethod.png"
+				},
+				"Button1": {
+					"type": "button",
+					"top": 173,
+					"left": 514,
+					"width": 188,
+					"text": ":xliff:HDI2_BtnToggleRuler",
+					"focusable": false,
+					"class": "default",
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Picture34": {
+					"type": "picture",
+					"top": 162,
+					"left": 379,
+					"width": 424,
+					"height": 327,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Menu.png"
+				}
+			}
+		},
+		{
+			"objects": {
+				"3D Button": {
+					"type": "button",
+					"top": 173,
+					"left": 568,
+					"width": 74,
+					"focusable": false,
+					"text": ":xliff:HDI2_BtnMenu",
+					"popupPlacement": "linked",
+					"style": "roundedBevel",
+					"class": "default",
+					"method": "ObjectMethods/3D Button.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Picture43": {
+					"type": "picture",
+					"top": 206,
+					"left": 361,
+					"width": 468,
+					"height": 263,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Menu2.png"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Picture45": {
+					"type": "picture",
+					"top": 181,
+					"left": 371,
+					"width": 450,
+					"height": 293,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/Menu3.png"
+				}
+			}
+		},
+		{
+			"objects": {
+				"Picture46": {
+					"type": "picture",
+					"top": 242,
+					"left": 416,
+					"width": 341,
+					"height": 170,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/ContextualMenu.png"
+				}
+			}
+		}
+	]
+}

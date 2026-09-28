@@ -6,9 +6,8 @@ Case of
 		// create menu for push button (See example 4)
 		menu:=Create menu:C408
 		//insert menu item
-		APPEND MENU ITEM:C411(menu; Localized string("HDI2_BtnToggleRuler"))
+		APPEND MENU ITEM:C411(menu; Localized string:C991("HDI2_BtnToggleRuler"))
 		SET MENU ITEM PROPERTY:C973(menu; -1; Associated standard action:K56:1; "visibleHorizontalRuler")
-		
 		
 		// create a contextual menu for 4D Write Pro area (See example 6)
 		menuContext:=Create menu:C408
@@ -24,10 +23,10 @@ Case of
 		
 		APPEND MENU ITEM:C411(menuContext; "-")
 		
-		APPEND MENU ITEM:C411(menuContext; Localized string("MenuItemStyle"))
+		APPEND MENU ITEM:C411(menuContext; Localized string:C991("MenuItemStyle"))
 		SET MENU ITEM PROPERTY:C973(menuContext; -1; Associated standard action:K56:1; "fontStyle")
 		
-		APPEND MENU ITEM:C411(menuContext; Localized string("HDI2_BtnToggleRuler"))
+		APPEND MENU ITEM:C411(menuContext; Localized string:C991("HDI2_BtnToggleRuler"))
 		SET MENU ITEM PROPERTY:C973(menuContext; -1; Associated standard action:K56:1; "visibleHorizontalRuler")
 		
 		
